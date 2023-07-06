@@ -69,7 +69,7 @@ h1{
 }
 
 p{
-
+   text-align: justify;
    padding: 15px;
    font-size: 0.8em;
 }
@@ -79,7 +79,7 @@ input[type=submit]{
    font-size: 1.3em;
    width: 100%;
    height: 40px;
-   background-image: linear-gradient(20deg, #ffffff, #edf043, #fde509);
+   background-color: #fde509bb;
    border: 1px solid white;
    border: hidden;
    border-radius: 10px;
