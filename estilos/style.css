@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face{
+   font-family: 'Maven';
+    src: url(../fonts/Maven.ttf)
+    format('opentype');
+}
+
+:root{
+   -color-um: #ECEA00;
+   -color-dois: #FF4702;
+   -color-tres: #651959;
+   -fonte: 'Maven';
+}
+
