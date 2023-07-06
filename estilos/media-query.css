@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Maven';
+     src: url(../fonts/Maven.ttf)
+     format('opentype');
+ }
+ 
+ :root{
+    --color-um: #ECEA00;
+    --color-dois: #FF4702;
+    --color-tres: #651959;
+    --color-fundo: #0181C0;
+    --fonte: 'Maven';
+ }
+
+ @media screen and (min-width: 768px){
+    
+    body{
+        background-image: linear-gradient(20deg, var(--color-um),var(--color-dois), var(--color-tres));
+    }
+
+
+    section#login{
+        width: 80vw;
+        height: 300px;
+        transition: width 0.4s, heigth 0.3s;
+        transition-timing-function: ease-in-out; /*Suavisa a transição*/
+    }
+    div#imagem{
+    float: left;
+    width: 25%;
+    height: 100%;
+    }
+
+    div#formulario{
+    float: right;
+    width: 75%;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+    
+    p{
+        font-size: 1.2em;
+    }
+
+ }
