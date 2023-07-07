@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="../esqueci-senha/estilos/style-f.css">
+    <link rel="stylesheet" href="../esqueci-senha/estilos/media-query-f.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Tela de login</title>
+    <title>Esqueci a senha</title>
 </head>
 <body>
     <main>
-        <section id="login">
+        <section id="recovery">
             <div id="imagem">
                
             </div>
             <div id="formulario">
-                <h1>Login</h1>
-                <p> <hr>Bem vindo
+                <h1>Recuperação de senha</h1>
+                <p> Digite o e-mail de login para recuperar a senha:
                     </p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                     <i class="material-icons">alternate_email</i>
                     <input type="email" name="login" id="ilogin" placeholder="digite seu e-mail" autocomplete="email" required maxlength="50">
                     <label for="ilogin">login</label></div>
+                    
                     <div class="campo">
                     <i class="material-icons">vpn_key</i>
-                    <input type="password" name="senha" id="isenha" placeholder="digite sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
-                    <label for="isenha">Senha</label></div>
+                    <input type="text" name="seguranca" id="iseguranca" placeholder="digite o codigo recebido em seu e-mail"  required minlength="8" maxlength="8">
+                    <label for="isseguranca">Senha</label></div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html" class="botao">Esqueci a senha <i class="material-icons">mail_outline</i></a>
                 </form>
             </div>
         </section>
