@@ -51,7 +51,7 @@ section#recovery{
 div#imagem{
     display: block;
     position: relative;
-    background: url(../imagens/bolhas.jpg) right bottom;
+    background: url(/imagens/bolhas.jpg) right bottom;
     background-size: cover;
     height: 200px;
  }
