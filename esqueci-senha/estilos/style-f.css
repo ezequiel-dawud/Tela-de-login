@@ -128,8 +128,9 @@ div#imagem{
  input[type=submit]:hover{
     border: 1px solid #65c7f8;
     font-weight: 600;
-    color: var(--color-fundo);
+    color: var(--color-fundo);    
  } 
+ 
  .botao:hover{
     border: 1px solid #65c7f8;
     font-weight: 600;
@@ -139,7 +140,7 @@ div#imagem{
  
  a.botao{
     padding-top: 10px;
-    margin-top: 5px;
+    margin-top: 16px;
     border-radius: 10px;
     display: block;
     text-decoration: none;
