@@ -1,4 +1,4 @@
-# Trabalho para portifólio de Ezequiel Dawud
- <p style="font-size: 40px;">Foco para tela de login, utilizando o conceito de <strong>Mobile First</strong>, con design responsivo para telas maiores.</p>
+<h1># Trabalho para portifólio de Ezequiel Dawud</h1>
+ <p>Foco para tela de login, utilizando o conceito de <strong>Mobile First</strong>, con design responsivo para telas maiores.</p>
  <br>
-Acesse neste link a tela principal de login: <a href="Login.html">Tela de Login</a>
+<p>Acesse neste link a tela principal de login: <a href="Login.html">Tela de Login</a></p>
