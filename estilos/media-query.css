@@ -27,6 +27,8 @@
         transition: width 0.4s, heigth 0.3s;
         transition-timing-function: ease-in-out; /*Suavisa a transição*/
     }
+
+
     div#imagem{
     float: left;
     width: 25%;

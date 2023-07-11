@@ -43,12 +43,16 @@ div#imagem{
    float: left;
    width: 25%;
    height: 100%;
-   }
+}
+
+.imagem{
+   padding: ;
+}
 
    div#formulario{
    float: right;
    width: 75%;
-   }
+}
 
 section#recovery{
    overflow: hidden; /*Tudo que estiver para fora  da borda some*/

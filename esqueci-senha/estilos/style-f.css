@@ -49,11 +49,16 @@ section#recovery{
 }
 
 div#imagem{
-    display: block;
+    display: flex;
     position: relative;
     background: url(../imagens/bolhas.jpg) right bottom;
     background-size: cover;
     height: 200px;
+    justify-content: center;
+ }
+
+ .imagem{
+   max-width: 90%;
  }
  
  div#formulario{

@@ -49,13 +49,17 @@ section#login{
 }
 
 div#imagem{
-
+   justify-content: center;
    text-align: center;
    display: flex;
    position: relative;
    background: url(../imagens/bolhas.jpg) right bottom;
    background-size: cover;
    height: 200px;
+}
+
+.imagem{
+   max-width: 90%;
 }
 
 div#formulario{
