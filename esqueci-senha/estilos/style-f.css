@@ -58,7 +58,7 @@ div#imagem{
  }
 
  .imagem{
-   max-width: 90%;
+   max-width: 70%;
  }
  
  div#formulario{
@@ -115,7 +115,10 @@ div#imagem{
     border-radius:  5px;
     padding-left: 10px;   
  }
- 
+ hr{
+   display: none;
+ }
+
  input[type=submit]{
     margin-top: 15px;
     display: block;
@@ -142,9 +145,10 @@ div#imagem{
     background-color: #fde509;
  }
 
+
  a.botao{
     padding-top: -15px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 10px;
     display: flex;
     text-decoration: none;
@@ -158,10 +162,12 @@ div#imagem{
     transition: all 0.5s ease-in-out;
     transition-timing-function: ease-in-out;
  }
+
+ 
  a.botao > i{
    padding-right: 10px;
-   font-size: 2em;
-   transform: translate(180%, 10%);
+   font-size: 1.2em;
+   transform: translate(250%, 25%);
  }
 
  span{

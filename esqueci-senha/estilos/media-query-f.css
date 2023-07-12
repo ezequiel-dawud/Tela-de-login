@@ -19,6 +19,7 @@
    body{
          height: 100%;
          width: 100%;
+         font-family: var(--fonte);
         background-image: linear-gradient(20deg, var(--color-um),var(--color-dois), var(--color-tres));
     }
 
@@ -34,16 +35,26 @@
       transition-timing-function: ease-in-out;
    }
    
+   .botoes_query{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
    h1{
-      margin-top: 50px;
+      margin-top: 0px;
+      font-size: 1.7rem;
    }
 
    hr{
+      display: ;
       margin-top: -10px;
    }
 
    p{
-      margin-top: 50px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      
    }
 
    div#imagem{
@@ -52,13 +63,10 @@
       height: 100%;
    }
 
-   .imagem{
-      padding: ;
-   }
-
    div#formulario{
       float: right;
       width: 75%;
+      padding: 1em 10%;
    }
 
    div.campo > i{
@@ -78,7 +86,6 @@
       height: 100%;
       border: none;
       border-radius:  5px;
-      padding-left: 10px;   
    }
    
    input[type=submit]{
@@ -86,7 +93,7 @@
       margin-top: 15px;
       display: block;
       font-size: 1.3em;
-      width: 20vw;
+      width: 48%;
       max-width: 325px;
       height: 40px;
       background-color: #fde509bb;
@@ -97,36 +104,29 @@
 
    a.botao{
       order: 1;
-      padding-top: 10px;
       margin-right: 10px;
       margin-top: 15px;
       border-radius: 10px;
       display: flex;
       text-decoration: none;
-      text-align: center;
-      width: 20vw;
-      max-width: 325px;
+      width: 48%;
       font-size: 0.8em;
       height: 40px;
       border: 1px solid rgba(0, 0, 0, 0.500);
       color: black;
       transition: all 0.5s ease-in-out;
       transition-timing-function: ease-in-out;
+      justify-content: center;
+      align-items: center;
    }
 
    a.botao > i{
       transform: translateY(-5%);
       font-size: 2em;
-      transform: translate(340%, 0%);
+      transform: translate(0%, 0%);
    }
 
-   .botoes{
-      display: inline-flex;
-   }
-
-   span{
-      transform: translate(390%, 18%);
-      font-weight: 400;
-   }
+   
+      
 }
 
