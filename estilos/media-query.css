@@ -45,6 +45,7 @@
     
     p{
         font-size: 1.2em;
+        padding-left: 0;
     }
 
     
@@ -93,7 +94,6 @@
          transform: translateY(1px);
      }
 
-  
 
      .botoes_query{
       display: flex;

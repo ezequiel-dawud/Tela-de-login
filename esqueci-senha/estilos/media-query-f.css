@@ -11,7 +11,7 @@
    --color-dois: #FF4702;
    --color-tres: #651959;
    --color-fundo: #0181C0;
-   --fonte: 'Maven';
+   --fonte: 'Maven', sans-serif;
 }
 
 @media screen and (min-width: 768px){
@@ -42,18 +42,14 @@
    }
 
    h1{
-      margin-top: 0px;
+      margin-top: 5px;
       font-size: 1.7rem;
    }
 
-   hr{
-      display: ;
-      margin-top: -10px;
-   }
-
    p{
-      font-size: 1.2rem;
-      font-weight: 400;
+      font-family: var(--fonte);
+      font-size: 1.2em;
+      padding-left: 0;
       
    }
 
@@ -77,12 +73,14 @@
    }
 
    div.campo > input{
+      display: flex;
       color: #030303;
       font-weight: 500;
       background-color: #ffccbab6;
       font-size: 12px;
-      width: calc(100% - 44px);
-      transform: translateY(-6px);
+      width: 92%;
+      margin-left: auto;
+      transform: translateY(-92%);
       height: 100%;
       border: none;
       border-radius:  5px;
@@ -104,7 +102,6 @@
 
    a.botao{
       order: 1;
-      margin-right: 10px;
       margin-top: 15px;
       border-radius: 10px;
       display: flex;
@@ -118,6 +115,7 @@
       transition-timing-function: ease-in-out;
       justify-content: center;
       align-items: center;
+      text-align: center;
    }
 
    a.botao > i{
