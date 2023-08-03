@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
-@font-face{
+@font-face {
    font-family: 'Maven';
-    src: url(../fonts/Maven.ttf)
-    format('opentype');
+   src: url(../fonts/Maven.ttf) format('opentype');
 }
 
-:root{
+:root {
    --color-um: #ECEA00;
    --color-dois: #FF4702;
    --color-tres: #651959;
@@ -14,14 +13,16 @@
    --fonte: 'Maven';
 }
 
-*{
+* {
    margin: 0px;
    padding: 0px;
    font-family: var(--fonte), Arial;
-   box-sizing: border-box; /*O tamanho da borda conta com espaço*/
+   box-sizing: border-box;
+   /*O tamanho da borda conta com espaço*/
 }
 
-body, html {
+body,
+html {
    background-color: var(--color-fundo);
    height: 100vh;
    width: 100vw;
@@ -33,8 +34,9 @@ main {
    width: 100vw;
 }
 
-section#login{
-   overflow: hidden; /*Tudo que estiver para fora  da borda some*/
+section#login {
+   overflow: hidden;
+   /*Tudo que estiver para fora  da borda some*/
    position: absolute;
    top: 50%;
    left: 50%;
@@ -48,7 +50,7 @@ section#login{
    transition-timing-function: ease-in-out;
 }
 
-div#imagem{
+div#imagem {
    justify-content: center;
    text-align: center;
    display: flex;
@@ -58,29 +60,29 @@ div#imagem{
    height: 200px;
 }
 
-.imagem{
+.imagem {
    max-width: 70%;
-   
+
 }
 
-div#formulario{
+div#formulario {
    display: block;
    padding: 10px;
 }
 
-h1{
+h1 {
    color: var(--color-tres);
    text-align: center;
    font-weight: 500;
 }
 
-p{
+p {
    text-align: left;
    padding: 15px;
    font-size: 0.9em;
 }
 
-div.campo{
+div.campo {
    background-color: var(--color-dois);
    display: block;
    font-size: 0.9em;
@@ -90,22 +92,23 @@ div.campo{
    padding-left: 9px;
 }
 
-#isenha, #ilogin{
-   background-color:  #ffb498;
+#isenha,
+#ilogin {
+   background-color: #ffb498;
 }
 
-div.campo > label{
+div.campo>label {
    display: none;
 }
 
-div.campo > i{
+div.campo>i {
    color: #ffffff;
    padding: 5px;
    width: 40px;
    font-size: 22px;
 }
 
-div.campo > input{
+div.campo>input {
    color: #030303;
    font-weight: 500;
    background-color: #ffccbab6;
@@ -114,11 +117,11 @@ div.campo > input{
    transform: translateY(-5px);
    height: 100%;
    border: none;
-   border-radius:  5px;
-   padding-left: 10px;   
+   border-radius: 5px;
+   padding-left: 10px;
 }
 
-input[type=submit]{
+input[type=submit] {
    margin-top: 15px;
    display: block;
    font-size: 1.3em;
@@ -132,19 +135,20 @@ input[type=submit]{
    transition-timing-function: ease-in-out;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
    border: 1px solid #65c7f8;
    font-weight: 600;
    color: var(--color-fundo);
-} 
-.botao:hover{
+}
+
+.botao:hover {
    border: 1px solid #65c7f8;
    font-weight: 600;
    color: var(--color-fundo);
    background-image: linear-gradient(20deg, #ffffff, #edf043, #fde509);
 }
 
-a.botao{
+a.botao {
    padding-top: 10px;
    margin-top: 5px;
    border-radius: 10px;
@@ -159,8 +163,8 @@ a.botao{
    transition: all 0.5s ease-in-out;
    transition-timing-function: ease-in-out;
 }
-a.botao > i{
+
+a.botao>i {
    font-size: 1em;
    transform: translateY(18%)
 }
-
